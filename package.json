@@ -1,0 +1,29 @@
+{
+  "name": "gugulethu-mavimbela-230-email-random-inspirational-quote-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "send_inspiration":"node src/emailer_file.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umuzi-org/Gugulethu-Mavimbela-230-email-random-inspirational-quote-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umuzi-org/Gugulethu-Mavimbela-230-email-random-inspirational-quote-javascript/issues"
+  },
+  "homepage": "https://github.com/Umuzi-org/Gugulethu-Mavimbela-230-email-random-inspirational-quote-javascript#readme",
+  "devDependencies": {
+    "jasmine": "^3.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.5.0"
+  }
+}
